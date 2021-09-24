@@ -1,0 +1,193 @@
+body{
+    font-family: 'Times New Roman', Times, serif ;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+#title{
+    margin: 0 auto;
+    background-color: #ed4866;
+}
+
+.navbar {
+    background-color: #ed4866;
+    color: white;
+    display: flex;
+    justify-content: space-between !important;
+}
+
+
+
+section{
+    padding: 60px;
+}
+  
+.download{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    padding: 12px;
+    margin: 6px;
+    width: 296px;
+    height: 64px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.downloadApple{
+    background-color: #000;
+}
+
+.downloadGoogle{
+    border: 1px solid #fff;
+}
+
+.container-download{
+    display: flex;
+}
+
+.top-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ed4866;
+    color: white;
+}
+
+#iphone-mockup {
+    height: 350px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+    top: 20px;
+  }
+
+.top-container h1{
+    font-size: 96px;
+    font-weight: 500;
+}
+
+.dog-phone{
+    margin: 0px 10px;
+    transform: rotate(30deg);
+    
+}
+
+.dog-phone img{
+    width: 400px;
+    height: auto;
+}
+
+#features{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#features div{
+    align-items: center;
+    text-align: center;
+}
+
+#features i{
+    margin: 0 0 12px;
+    color: #ed4866;
+    font-size: 48px;
+}
+
+
+
+
+
+
+
+#testimonials{
+    background-color: #ef8172;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#testimonials h2, em{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#testimonials img{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+
+#press{
+    background-color: #ef8172;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#press img{
+    height: 60px;
+}
+
+
+
+
+#pricing{
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.type-dogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.dog-price{
+    margin: 20px;
+    border: 1px solid black;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+}
+
+.dog-price button{
+    background-color: #000;
+    color: #fff;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#cta {  
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    background-color: #ed4866;
+}
+
+#cta div{
+    margin: 0 auto;
+
+}
+
+#cta h3{
+    font-size: 60px;
+}
